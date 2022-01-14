@@ -1,0 +1,80 @@
+--- 
+title: "마케팅/고객 분석 그룹스터디"
+author: "Chad (Chungil Chae)"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+# url: your book url like https://bookdown.org/yihui/bookdown
+# cover-image: path to the social sharing image like images/cover.jpg
+description: |
+  
+link-citations: yes
+github-repo: People-Analytics/study2
+
+---
+
+# 스터디 기본정보
+## 미팅 시간과 날자 및 장소
+- 스터디 기간:
+    - 2022년 1월 08일 (SA) - 2022년 3월 12일 (SA)
+- 스터디 시간
+    - 오전 10시(한국시간) 시작
+    - 오전 11:30 (room closing at 11:45 am) 종료
+- Zoom URL
+    - https://tamuc.zoom.us/j/94691565814?pwd=WmtsYyt3c1BSQmJ0bHdCQS9MRGVyQT09 (권한가진(참가자)들만 억세스 가능)
+    - Meeting ID: 946 9156 5814
+- 스터디 목적: 
+    - 마케팅 컨텍스트에서 데이터분석과 고객분석의 기초 분석 능력향상
+- 세션 포멧: 
+    - 30 분 (max) 발표 (챕터 서머리) 
+    - 45~50분간 이어지는 논의/토론 (examples, application, needs, etc). - 스터디 관련자료
+    - https://drive.google.com/drive/folders/1dyCazsp8dICExaByzMfAyrkwrDO546Zf?usp=sharing (권한가진(참가자)들만 억세스 가능)
+- 공유폴더
+    - https://drive.google.com/drive/folders/1dyCazsp8dICExaByzMfAyrkwrDO546Zf?usp=sharing (권한가진(참가자)들만 억세스 가능)
+
+
+## 멤버
+### Facilitators
+- 윤승원 Texas A&M University-Commerce 고등교육/교육공학 박사과정 주임교수 1.217.493.5741 hrdswon@gmail.com (R에 익숙. Python도 책 5권정도 공부했지만 자주 사용하지는 않음)
+- 채충일 Kean Univ. Wenzou 경영대 비지니스 애널리틱스 조교수 86-133-2598-0138 chadchae@gmail.com
+
+### Participants
+각 현업의 실무 또는 경영진 8분
+
+## 교재
+- R For Marketing Research and Analytics (Use R!) 2nd ed
+    - https://www.amazon.com/Marketing-Research-Analytics-Use-dp-3030143155/dp/3030143155/ref=dp_ob_title_bk
+- Python for Marketing Research and Analytics 1st ed. 2020
+    - https://www.amazon.com/Python-Marketing-Research-Analytics-Schwarz/dp/3030497194/ref=sr_1_3?crid=K9T2N4ZKQ4QD&keywords=Python+for+Marketing+Research+and+Analytics&qid=1641325026&s=books&sprefix=python+for+marketing+research+and+analytics%2Cstripbooks%2C243&sr=1-3
+
+## 스케쥴
+* 스터디의 원활한 진행을 위해 관심있는 발표를 진행할 관심있는 챕터와 스케쥴을 선정해 주세요:
+- Week 1 (Jan 08) : **Yoon & Chae**
+    - Overview of R, Expectations 
+    - (pp. 50, Chs 1 & 2, )
+- Week 2 (Jan 15) : **손경희**
+    - Describing Data & Continuous Vars 
+    - (pp. 56, Chs 3&4)
+- Week 3 (Jan 22) : **윤승원**
+    - Comparing Groups & Tests 
+    - (pp. 40, Chs 5&6)
+- **Week 4 (Jan 29) :No meeting, New Year Celebration**
+- Week 5 (Feb 05) : **이진재**
+    - Linear Models & Complexity (PCA) 
+    - (pp. 58, Chs 7&8)
+- Week 6 (Feb 12) : **박규서**
+    - Additional LM (HLM/Baysian) 
+    - (pp. 40, Ch 9)
+- Week 7 (Feb 19) : **채충일**
+    - CFA & SEM 
+    - (pp, 31, Ch 10)
+- Week 8 (Feb 26) : **강동오**
+    - Segmentation 
+    - (pp, 40, Ch 11)
+- Week 9 (Mar 05) : **[발표자 TBA]**
+    - Association Rule & Basket 
+    - (Ch 12&13)
+- Week 10 (Mar 12) : **이승희**
+    - Behavioral Sequences & Party 
+    - (pp. 27, Ch 14)
