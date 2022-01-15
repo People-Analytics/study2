@@ -1,6 +1,7 @@
 # Session1 - Chapter1 & 2
 ## 발표자료
 - [노션](https://www.notion.so/Ch3-4-Describing-Data-Continuous-Vars-f074b5ea4b7849b69c14a65d04f8aeeb)
+- [PDF](https://drive.google.com/file/d/1EC1y9vQwPwn-uGACFh5XblTW_ENIFtPE/view?usp=sharing)
 
 ## 요약
 - 체크인 질문: 지난한주를 다섯글자로 표현하고 그 이유를 설명
