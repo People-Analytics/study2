@@ -1,15 +1,17 @@
 {
     "sources": [
         {
-            "URL": "http://yihui.org/knitr/",
             "author": [
                 {
-                    "family": "Xie",
-                    "given": "Yihui"
+                    "family": "Chapman",
+                    "given": "Chris"
+                },
+                {
+                    "family": "Feit",
+                    "given": "Elea McDonnell"
                 }
             ],
-            "edition": "2nd",
-            "id": "xie2015",
+            "id": "chapman2015r",
             "issued": {
                 "date-parts": [
                     [
@@ -17,10 +19,36 @@
                     ]
                 ]
             },
-            "note": "ISBN 978-1498716963",
-            "publisher": "Chapman; Hall/CRC",
-            "publisher-place": "Boca Raton, Florida",
-            "title": "Dynamic documents with R and knitr",
+            "publisher": "Springer",
+            "title": "R for marketing research and analytics",
+            "type": "book",
+            "volume": "67"
+        },
+        {
+            "author": [
+                {
+                    "family": "Schwarz",
+                    "given": "Jason S"
+                },
+                {
+                    "family": "Chapman",
+                    "given": "Chris"
+                },
+                {
+                    "family": "Feit",
+                    "given": "Elea McDonnell"
+                }
+            ],
+            "id": "schwarz2020python",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "publisher": "Springer",
+            "title": "Python for marketing research and analytics",
             "type": "book"
         },
         {

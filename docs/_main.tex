@@ -70,50 +70,17 @@
 \setcounter{secnumdepth}{5}
 \usepackage{kotex}
 \usepackage{booktabs}
-\usepackage{geometry}
-\geometry{verbose,letterpaper,margin=2.45cm}
-
-% \usepackage[breaklinks=true,pdfstartview=FitH,citecolor=blue]{hyperref}
-\hypersetup{colorlinks,%
-  citecolor=blue,%
-  filecolor=red,%
-  linkcolor=blue,%
-  urlcolor=red,%
-  pdfstartview=FitH}
-
 \usepackage{kotex}
-\usepackage{booktabs}
-
-\usepackage{setspace}
-\doublespacing
-
-% \setstretch{1.8999999999999999}
-
-\usepackage{lineno}
-\linenumbers
-
-% \renewcommand{\rmdefault}{cmr}
-
-
-% flush left while keep identation
-\makeatletter
-\newcommand\iraggedright{%
-  \let\\\@centercr\@rightskip\@flushglue \rightskip\@rightskip
-  \leftskip\z@skip}
-\makeatother
-
-% make pdf as default figure format
-\DeclareGraphicsExtensions{.pdf,.png, %
-    .jpg,.mps,.jpeg,.jbig2,.jb2,.JPG,.JPEG,.JBIG2,.JB2}
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
-\usepackage[]{natbib}
-\bibliographystyle{plainnat}
+\usepackage[]{biblatex}
+\addbibresource{book.bib}
+\addbibresource{packages.bib}
 
 \title{마케팅/고객 분석 그룹스터디}
 \author{Chad (Chungil Chae)}
-\date{2022-01-14}
+\date{2022-01-15}
 
 \begin{document}
 \maketitle
@@ -213,7 +180,7 @@
 \begin{itemize}
 \tightlist
 \item
-  R For Marketing Research and Analytics (Use R!) 2nd ed
+  R For Marketing Research and Analytics (Use R!) 2nd ed \autocite{chapman2015r}
 
   \begin{itemize}
   \tightlist
@@ -221,7 +188,7 @@
     \url{https://www.amazon.com/Marketing-Research-Analytics-Use-dp-3030143155/dp/3030143155/ref=dp_ob_title_bk}
   \end{itemize}
 \item
-  Python for Marketing Research and Analytics 1st ed.~2020
+  Python for Marketing Research and Analytics 1st ed.~2020 \autocite{schwarz2020python}
 
   \begin{itemize}
   \tightlist
@@ -429,6 +396,6 @@
 
 \includegraphics{img/session1.png}
 
-  \bibliography{book.bib,packages.bib}
+\printbibliography
 
 \end{document}

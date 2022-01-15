@@ -11,7 +11,14 @@ description: |
   
 link-citations: yes
 github-repo: People-Analytics/study2
+header-includes:
+   - \usepackage{kotex}
+output:
+  pdf_document:
+    citation_package: natbib
 
+  bookdown::pdf_book:
+    citation_package: biblatex
 ---
 
 # 스터디 기본정보
@@ -43,9 +50,9 @@ github-repo: People-Analytics/study2
 각 현업의 실무 또는 경영진 8분
 
 ## 교재
-- R For Marketing Research and Analytics (Use R!) 2nd ed
+- R For Marketing Research and Analytics (Use R!) 2nd ed [@chapman2015r]
     - https://www.amazon.com/Marketing-Research-Analytics-Use-dp-3030143155/dp/3030143155/ref=dp_ob_title_bk
-- Python for Marketing Research and Analytics 1st ed. 2020
+- Python for Marketing Research and Analytics 1st ed. 2020 [@schwarz2020python]
     - https://www.amazon.com/Python-Marketing-Research-Analytics-Schwarz/dp/3030497194/ref=sr_1_3?crid=K9T2N4ZKQ4QD&keywords=Python+for+Marketing+Research+and+Analytics&qid=1641325026&s=books&sprefix=python+for+marketing+research+and+analytics%2Cstripbooks%2C243&sr=1-3
 
 ## 스케쥴
