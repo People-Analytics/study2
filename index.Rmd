@@ -80,7 +80,7 @@ output:
 - Week 8 (Feb 26) : **강동오**
     - Segmentation 
     - (pp, 40, Ch 11)
-- Week 9 (Mar 05) : **[발표자 TBA]**
+- Week 9 (Mar 05) : **정시앙**
     - Association Rule & Basket 
     - (Ch 12&13)
 - Week 10 (Mar 12) : **이승희**

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Homebrew) (preloaded format=pdflatex 2021.9.30)  2 FEB 2022 14:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Homebrew) (preloaded format=pdflatex 2021.9.30)  2 FEB 2022 14:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -692,19 +692,19 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 2.
-)
+[3])
 \tf@toc=\write3
 \openout3 = `_main.toc'.
 
-[3] [4
-
-]
+[4]
 Chapter 1.
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 9
 8.
 (/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [5]
+) [5
+
+]
 Overfull \hbox (0.1064pt too wide) in paragraph at lines 193--194
 \T1/lmr/m/n/10 (+14) 6 4 1 3 2 5 0 2 6& s = b o o k s & s p r e f i x = p y t h
  o n + f o r + m a r k e t i n g + r e s e a r c h + a
@@ -714,30 +714,30 @@ Overfull \hbox (0.1064pt too wide) in paragraph at lines 193--194
 
 ]
 Chapter 2.
-<img/s1/1.png, id=180, 501.875pt x 292.09125pt>
+<img/s1/1.png, id=229, 501.875pt x 292.09125pt>
 File: img/s1/1.png Graphic file (type png)
 <use img/s1/1.png>
 Package pdftex.def Info: img/s1/1.png  used on input line 394.
 (pdftex.def)             Requested size: 345.01523pt x 200.79884pt.
 [9] [10 <./img/s1/1.png>]
 Chapter 3.
-<img/s2/3.png, id=209, 120.45pt x 90.3375pt>
-File: img/s2/3.png Graphic file (type png)
-<use img/s2/3.png>
-Package pdftex.def Info: img/s2/3.png  used on input line 466.
-(pdftex.def)             Requested size: 120.44969pt x 90.33727pt.
 [11
 
 ]
-<img/s2/1.png, id=220, 501.875pt x 283.0575pt>
+<img/s2/3.png, id=266, 120.45pt x 90.3375pt>
+File: img/s2/3.png Graphic file (type png)
+<use img/s2/3.png>
+Package pdftex.def Info: img/s2/3.png  used on input line 468.
+(pdftex.def)             Requested size: 120.44969pt x 90.33727pt.
+<img/s2/1.png, id=267, 501.875pt x 283.0575pt>
 File: img/s2/1.png Graphic file (type png)
 <use img/s2/1.png>
-Package pdftex.def Info: img/s2/1.png  used on input line 468.
+Package pdftex.def Info: img/s2/1.png  used on input line 470.
 (pdftex.def)             Requested size: 345.01523pt x 194.58858pt.
-<img/s2/2.png, id=221, 501.875pt x 330.23375pt>
+<img/s2/2.png, id=268, 501.875pt x 330.23375pt>
 File: img/s2/2.png Graphic file (type png)
 <use img/s2/2.png>
-Package pdftex.def Info: img/s2/2.png  used on input line 470.
+Package pdftex.def Info: img/s2/2.png  used on input line 472.
 (pdftex.def)             Requested size: 345.01523pt x 227.02pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -746,135 +746,159 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 Chapter 4.
-<img/s3/1.png, id=245, 501.875pt x 265.99374pt>
+[15]
+<img/s3/1.png, id=301, 501.875pt x 265.99374pt>
 File: img/s3/1.png Graphic file (type png)
 <use img/s3/1.png>
-Package pdftex.def Info: img/s3/1.png  used on input line 524.
+Package pdftex.def Info: img/s3/1.png  used on input line 528.
 (pdftex.def)             Requested size: 345.01523pt x 182.85806pt.
-[15]
-<img/s3/2.png, id=255, 1156.32pt x 867.24pt>
+<img/s3/2.png, id=302, 1156.32pt x 867.24pt>
 File: img/s3/2.png Graphic file (type png)
 <use img/s3/2.png>
-Package pdftex.def Info: img/s3/2.png  used on input line 526.
+Package pdftex.def Info: img/s3/2.png  used on input line 530.
 (pdftex.def)             Requested size: 344.99312pt x 258.74484pt.
-(./_main.bbl [16 <./img/s3/1.png> <./img/s3/2.png>]) [17
+[16 <./img/s3/1.png> <./img/s3/2.png>]
+Chapter 5.
+[17
 
-] (./_main.aux) ) 
+] [18
+
+]
+Chapter 6.
+[19] [20
+
+]
+Chapter 7.
+[21] [22
+
+]
+Chapter 8.
+[23] [24
+
+]
+Chapter 9.
+[25] [26
+
+]
+Chapter 10.
+(./_main.bbl [27] [28
+
+]) [29] (./_main.aux) ) 
 Here is how much of TeX's memory you used:
- 13475 strings out of 478994
- 204736 string characters out of 5851139
- 547513 words of memory out of 5000000
- 30459 multiletter control sequences out of 15000+600000
- 509696 words of font info for 227 fonts, out of 8000000 for 9000
+ 13582 strings out of 478994
+ 206277 string characters out of 5851139
+ 548485 words of memory out of 5000000
+ 30506 multiletter control sequences out of 15000+600000
+ 509689 words of font info for 227 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,6n,88p,510b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/enc/dv
-ips/lm/lm-ec.enc}{/usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/enc/dv
-ips/lm/lm-ts1.enc}</usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1
-/public/lm/lmbx10.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/t
-ype1/public/lm/lmbx12.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fon
-ts/type1/public/lm/lmr10.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/
-fonts/type1/public/lm/lmr12.pfb></usr/local/Cellar/texlive/58837/share/texmf-di
-st/fonts/type1/public/lm/lmr17.pfb></usr/local/Cellar/texlive/58837/share/texmf
--dist/fonts/type1/public/lm/lmri10.pfb></usr/local/Cellar/texlive/58837/share/t
-exmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/Cellar/texlive/58837/sha
-re/texmf-dist/fonts/type1/public/nanumtype1/nanummjbac.pfb></usr/local/Cellar/t
-exlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbad.pfb></us
-r/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nan
-ummjbae.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/publi
-c/nanumtype1/nanummjbb0.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/f
-onts/type1/public/nanumtype1/nanummjbb3.pfb></usr/local/Cellar/texlive/58837/sh
-are/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb5.pfb></usr/local/Cellar/
-texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb8.pfb></u
-sr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/na
-nummjbba.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/publ
-ic/nanumtype1/nanummjbbb.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/
-fonts/type1/public/nanumtype1/nanummjbbc.pfb></usr/local/Cellar/texlive/58837/s
-hare/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc0.pfb></usr/local/Cellar
-/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc1.pfb></
-usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/n
-anummjbc2.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/pub
-lic/nanumtype1/nanummjbc5.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist
-/fonts/type1/public/nanumtype1/nanummjbc6.pfb></usr/local/Cellar/texlive/58837/
-share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc7.pfb></usr/local/Cella
-r/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc8.pfb><
-/usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/
-nanummjbc9.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/pu
-blic/nanumtype1/nanummjbcc.pfb></usr/local/Cellar/texlive/58837/share/texmf-dis
-t/fonts/type1/public/nanumtype1/nanummjbcd.pfb></usr/local/Cellar/texlive/58837
-/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbcf.pfb></usr/local/Cell
-ar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd1.pfb>
-</usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1
-/nanummjbd3.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/p
-ublic/nanumtype1/nanummjbd4.pfb></usr/local/Cellar/texlive/58837/share/texmf-di
-st/fonts/type1/public/nanumtype1/nanummjbd6.pfb></usr/local/Cellar/texlive/5883
-7/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd7.pfb></usr/local/Cel
-lar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb
-></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype
-1/nanummjmad.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/
-public/nanumtype1/nanummjmae.pfb></usr/local/Cellar/texlive/58837/share/texmf-d
-ist/fonts/type1/public/nanumtype1/nanummjmae.pfb></usr/local/Cellar/texlive/588
-37/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb0.pfb></usr/local/Ce
-llar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb1.pf
+ 85i,6n,88p,510b,629s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/
+enc/dvips/lm/lm-ec.enc}{/usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/
+enc/dvips/lm/lm-ts1.enc}</usr/local/Cellar/texlive/58837/share/texmf-dist/fonts
+/type1/public/lm/lmbx10.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/f
+onts/type1/public/lm/lmbx12.pfb></usr/local/Cellar/texlive/58837/share/texmf-di
+st/fonts/type1/public/lm/lmr10.pfb></usr/local/Cellar/texlive/58837/share/texmf
+-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/Cellar/texlive/58837/share/te
+xmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/Cellar/texlive/58837/share
+/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/Cellar/texlive/58837/s
+hare/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/Cellar/texlive/588
+37/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbac.pfb></usr/local/Ce
+llar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbad.pf
 b></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtyp
-e1/nanummjmb2.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1
-/public/nanumtype1/nanummjmb3.pfb></usr/local/Cellar/texlive/58837/share/texmf-
-dist/fonts/type1/public/nanumtype1/nanummjmb4.pfb></usr/local/Cellar/texlive/58
-837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb5.pfb></usr/local/C
-ellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb5.p
+e1/nanummjbae.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1
+/public/nanumtype1/nanummjbb0.pfb></usr/local/Cellar/texlive/58837/share/texmf-
+dist/fonts/type1/public/nanumtype1/nanummjbb3.pfb></usr/local/Cellar/texlive/58
+837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb5.pfb></usr/local/C
+ellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb8.p
 fb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumty
-pe1/nanummjmb6.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type
-1/public/nanumtype1/nanummjmb7.pfb></usr/local/Cellar/texlive/58837/share/texmf
--dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb></usr/local/Cellar/texlive/5
-8837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb></usr/local/
-Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmba.
+pe1/nanummjbba.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type
+1/public/nanumtype1/nanummjbbb.pfb></usr/local/Cellar/texlive/58837/share/texmf
+-dist/fonts/type1/public/nanumtype1/nanummjbbc.pfb></usr/local/Cellar/texlive/5
+8837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc0.pfb></usr/local/
+Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc1.
 pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumt
-ype1/nanummjmbb.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/typ
-e1/public/nanumtype1/nanummjmbc.pfb></usr/local/Cellar/texlive/58837/share/texm
-f-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb></usr/local/Cellar/texlive/
-58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbd.pfb></usr/local
-/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbe
+ype1/nanummjbc2.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/typ
+e1/public/nanumtype1/nanummjbc5.pfb></usr/local/Cellar/texlive/58837/share/texm
+f-dist/fonts/type1/public/nanumtype1/nanummjbc6.pfb></usr/local/Cellar/texlive/
+58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc7.pfb></usr/local
+/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc8
 .pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanum
-type1/nanummjmc0.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/ty
-pe1/public/nanumtype1/nanummjmc0.pfb></usr/local/Cellar/texlive/58837/share/tex
-mf-dist/fonts/type1/public/nanumtype1/nanummjmc1.pfb></usr/local/Cellar/texlive
-/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb></usr/loca
-l/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc
-2.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanu
-mtype1/nanummjmc3.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/t
-ype1/public/nanumtype1/nanummjmc5.pfb></usr/local/Cellar/texlive/58837/share/te
-xmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb></usr/local/Cellar/texliv
-e/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb></usr/loc
+type1/nanummjbc9.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/ty
+pe1/public/nanumtype1/nanummjbcc.pfb></usr/local/Cellar/texlive/58837/share/tex
+mf-dist/fonts/type1/public/nanumtype1/nanummjbcd.pfb></usr/local/Cellar/texlive
+/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbcf.pfb></usr/loca
+l/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd
+1.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanu
+mtype1/nanummjbd3.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/t
+ype1/public/nanumtype1/nanummjbd4.pfb></usr/local/Cellar/texlive/58837/share/te
+xmf-dist/fonts/type1/public/nanumtype1/nanummjbd6.pfb></usr/local/Cellar/texliv
+e/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd7.pfb></usr/loc
 al/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjm
-c7.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nan
-umtype1/nanummjmc8.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/
-type1/public/nanumtype1/nanummjmc8.pfb></usr/local/Cellar/texlive/58837/share/t
-exmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb></usr/local/Cellar/texli
-ve/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb></usr/lo
+ac.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nan
+umtype1/nanummjmad.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/
+type1/public/nanumtype1/nanummjmae.pfb></usr/local/Cellar/texlive/58837/share/t
+exmf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb></usr/local/Cellar/texli
+ve/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb0.pfb></usr/lo
 cal/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummj
-mca.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/na
-numtype1/nanummjmcc.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts
-/type1/public/nanumtype1/nanummjmcd.pfb></usr/local/Cellar/texlive/58837/share/
-texmf-dist/fonts/type1/public/nanumtype1/nanummjmce.pfb></usr/local/Cellar/texl
-ive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcf.pfb></usr/l
+mb1.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/na
+numtype1/nanummjmb2.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts
+/type1/public/nanumtype1/nanummjmb3.pfb></usr/local/Cellar/texlive/58837/share/
+texmf-dist/fonts/type1/public/nanumtype1/nanummjmb4.pfb></usr/local/Cellar/texl
+ive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb5.pfb></usr/l
 ocal/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanumm
-jmcf.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/n
-anumtype1/nanummjmd0.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/font
-s/type1/public/nanumtype1/nanummjmd1.pfb></usr/local/Cellar/texlive/58837/share
-/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd1.pfb></usr/local/Cellar/tex
-live/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd2.pfb></usr/
+jmb5.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/n
+anumtype1/nanummjmb6.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/font
+s/type1/public/nanumtype1/nanummjmb7.pfb></usr/local/Cellar/texlive/58837/share
+/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb></usr/local/Cellar/tex
+live/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb></usr/
 local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanum
-mjmd3.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/
-nanumtype1/nanummjmd4.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fon
-ts/type1/public/nanumtype1/nanummjmd5.pfb></usr/local/Cellar/texlive/58837/shar
-e/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb></usr/local/Cellar/te
-xlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb></usr
+mjmba.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/
+nanumtype1/nanummjmbb.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fon
+ts/type1/public/nanumtype1/nanummjmbc.pfb></usr/local/Cellar/texlive/58837/shar
+e/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb></usr/local/Cellar/te
+xlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbd.pfb></usr
 /local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanu
-mmjmd7.pfb>
-Output written on _main.pdf (17 pages, 16429461 bytes).
+mmjmbe.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public
+/nanumtype1/nanummjmc0.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fo
+nts/type1/public/nanumtype1/nanummjmc0.pfb></usr/local/Cellar/texlive/58837/sha
+re/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc1.pfb></usr/local/Cellar/t
+exlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb></us
+r/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nan
+ummjmc2.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/publi
+c/nanumtype1/nanummjmc3.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/f
+onts/type1/public/nanumtype1/nanummjmc5.pfb></usr/local/Cellar/texlive/58837/sh
+are/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb></usr/local/Cellar/
+texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb></u
+sr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/na
+nummjmc7.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/publ
+ic/nanumtype1/nanummjmc8.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/
+fonts/type1/public/nanumtype1/nanummjmc8.pfb></usr/local/Cellar/texlive/58837/s
+hare/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb></usr/local/Cellar
+/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb></
+usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/n
+anummjmca.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/pub
+lic/nanumtype1/nanummjmcc.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist
+/fonts/type1/public/nanumtype1/nanummjmcd.pfb></usr/local/Cellar/texlive/58837/
+share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmce.pfb></usr/local/Cella
+r/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcf.pfb><
+/usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/
+nanummjmcf.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/pu
+blic/nanumtype1/nanummjmd0.pfb></usr/local/Cellar/texlive/58837/share/texmf-dis
+t/fonts/type1/public/nanumtype1/nanummjmd1.pfb></usr/local/Cellar/texlive/58837
+/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd1.pfb></usr/local/Cell
+ar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd2.pfb>
+</usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1
+/nanummjmd3.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/p
+ublic/nanumtype1/nanummjmd4.pfb></usr/local/Cellar/texlive/58837/share/texmf-di
+st/fonts/type1/public/nanumtype1/nanummjmd5.pfb></usr/local/Cellar/texlive/5883
+7/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb></usr/local/Cel
+lar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb
+></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype
+1/nanummjmd7.pfb>
+Output written on _main.pdf (29 pages, 16442927 bytes).
 PDF statistics:
- 595 PDF objects out of 1000 (max. 8388607)
- 475 compressed objects within 5 object streams
- 60 named destinations out of 1000 (max. 500000)
- 45223 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 803 PDF objects out of 1000 (max. 8388607)
+ 669 compressed objects within 7 object streams
+ 120 named destinations out of 1000 (max. 500000)
+ 45415 words of extra memory for PDF output out of 51595 (max. 10000000)
 

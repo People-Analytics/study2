@@ -1,4 +1,6 @@
 # Session1 - Chapter1 & 2
+손경희
+
 ## 발표자료
 - [노션](https://www.notion.so/Ch3-4-Describing-Data-Continuous-Vars-f074b5ea4b7849b69c14a65d04f8aeeb)
 - [PDF](https://drive.google.com/file/d/1EC1y9vQwPwn-uGACFh5XblTW_ENIFtPE/view?usp=sharing)
