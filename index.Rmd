@@ -15,10 +15,12 @@ header-includes:
    - \usepackage{kotex}
 output:
   pdf_document:
-    citation_package: natbib
-
+    citation_package: biblatex
   bookdown::pdf_book:
     citation_package: biblatex
+  bookdown::gitbook:
+    includes:
+      after_body: disques.html
 ---
 
 # 스터디 기본정보
