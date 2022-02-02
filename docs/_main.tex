@@ -74,9 +74,8 @@
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
-\usepackage[]{biblatex}
-\addbibresource{book.bib}
-\addbibresource{packages.bib}
+\usepackage[]{natbib}
+\bibliographystyle{plainnat}
 
 \title{마케팅/고객 분석 그룹스터디}
 \author{Chad (Chungil Chae)}
@@ -180,7 +179,7 @@
 \begin{itemize}
 \tightlist
 \item
-  R For Marketing Research and Analytics (Use R!) 2nd ed \autocite{chapman2015r}
+  R For Marketing Research and Analytics (Use R!) 2nd ed \citep{chapman2015r}
 
   \begin{itemize}
   \tightlist
@@ -188,7 +187,7 @@
     \url{https://www.amazon.com/Marketing-Research-Analytics-Use-dp-3030143155/dp/3030143155/ref=dp_ob_title_bk}
   \end{itemize}
 \item
-  Python for Marketing Research and Analytics 1st ed.~2020 \autocite{schwarz2020python}
+  Python for Marketing Research and Analytics 1st ed.~2020 \citep{schwarz2020python}
 
   \begin{itemize}
   \tightlist
@@ -472,6 +471,6 @@
 
 \includegraphics{img/s2/2.png}
 
-\printbibliography
+  \bibliography{book.bib,packages.bib}
 
 \end{document}

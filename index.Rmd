@@ -5,8 +5,8 @@ date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
-# url: your book url like https://bookdown.org/yihui/bookdown
-# cover-image: path to the social sharing image like images/cover.jpg
+url: "https://people-analytics.github.io/study2"
+cover-image: "img/s2/3.png"
 description: |
   
 link-citations: yes
@@ -14,10 +14,9 @@ github-repo: People-Analytics/study2
 header-includes:
    - \usepackage{kotex}
 output:
-  pdf_document:
-    citation_package: biblatex
   bookdown::pdf_book:
-    citation_package: biblatex
+    citation_package: natbib
+  bookdown::epub_book: default
   bookdown::gitbook:
     includes:
       after_body: disques.html

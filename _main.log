@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Homebrew) (preloaded format=pdflatex 2021.9.30)  2 FEB 2022 13:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Homebrew) (preloaded format=pdflatex 2021.9.30)  2 FEB 2022 13:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -367,6 +367,73 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
 \BKM@id=\count279
 ))
+(/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip54
+\LTright=\skip55
+\LTpre=\skip56
+\LTpost=\skip57
+\LTchunksize=\count280
+\LTcapwidth=\dimen153
+\LT@head=\box49
+\LT@firsthead=\box50
+\LT@foot=\box51
+\LT@lastfoot=\box52
+\LT@cols=\count281
+\LT@rows=\count282
+\c@LT@tables=\count283
+\c@LT@chunks=\count284
+\LT@p@ftn=\toks24
+)
+(/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/booktabs/booktabs.s
+ty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen154
+\lightrulewidth=\dimen155
+\cmidrulewidth=\dimen156
+\belowrulesep=\dimen157
+\belowbottomsep=\dimen158
+\aboverulesep=\dimen159
+\abovetopsep=\dimen160
+\cmidrulesep=\dimen161
+\cmidrulekern=\dimen162
+\defaultaddspace=\dimen163
+\@cmidla=\count285
+\@cmidlb=\count286
+\@aboverulesep=\dimen164
+\@belowrulesep=\dimen165
+\@thisruleclass=\count287
+\@lastruleclass=\count288
+\@thisrulewidth=\dimen166
+) (/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/tools/array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen167
+\ar@mcellbox=\box53
+\extrarowheight=\dimen168
+\NC@list=\toks25
+\extratabsurround=\skip58
+\backup@length=\skip59
+\ar@cellbox=\box54
+) (/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count289
+\calc@Bcount=\count290
+\calc@Adimen=\dimen169
+\calc@Bdimen=\dimen170
+\calc@Askip=\skip60
+\calc@Bskip=\skip61
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count291
+\calc@Cskip=\skip62
+)
+(/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/footnotehyper/footn
+otehyper.sty
+Package: footnotehyper 2021/02/04 v1.1d hyperref aware footnote.sty (JFB)
+\FNH@notes=\box55
+\FNH@width=\dimen171
+\FNH@toks=\toks26
+)
 (/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/graphics/graphicx.s
 ty
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
@@ -383,8 +450,8 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 )
-\Gin@req@height=\dimen153
-\Gin@req@width=\dimen154
+\Gin@req@height=\dimen172
+\Gin@req@width=\dimen173
 ) (/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/cjk-ko/kotex.sty
 Package: kotex 2015/04/19 v1.6 Korean TeX (ko.TeX)
 
@@ -396,8 +463,8 @@ Package: kotexutf 2015/07/18 v2.1.1 typesetting UTF-8 Korean documents
 
 (/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/plain/kotex-plain/kotexut
 f-core.tex
-\unih@ngulpoint=\count280
-\dhucs@emph@raise=\dimen155
+\unih@ngulpoint=\count292
+\dhucs@emph@raise=\dimen174
 )
 Now handling font encoding LUC ...
 ... processing UTF-8 mapping file for font encoding LUC
@@ -451,275 +518,55 @@ File: lucenc.dfu 2007/09/05 UTF-8 support for dhucs
    defining Unicode char U+FF64 (decimal 65380)
    defining Unicode char U+FF65 (decimal 65381)
 )
-\@josa=\count281
-\josatoks=\toks24
+\@josa=\count293
+\josatoks=\toks27
 
 (/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/cjk-ko/kolabels-utf
 .sty
 Package: kolabels-utf 2015/03/20 v1.5 UTF-8 Hangul item labels
-)))
-(/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/biblatex/biblatex.s
+))) (/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/natbib/natbib.s
 ty
-Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
-(/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/logreq/logreq.sty
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count282
-(/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/logreq/logreq.def
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-)) (/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip63
+\bibsep=\skip64
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count294
 )
-\c@tabx@nest=\count283
-\c@listtotal=\count284
-\c@listcount=\count285
-\c@liststart=\count286
-\c@liststop=\count287
-\c@citecount=\count288
-\c@citetotal=\count289
-\c@multicitecount=\count290
-\c@multicitetotal=\count291
-\c@instcount=\count292
-\c@maxnames=\count293
-\c@minnames=\count294
-\c@maxitems=\count295
-\c@minitems=\count296
-\c@citecounter=\count297
-\c@maxcitecounter=\count298
-\c@savedcitecounter=\count299
-\c@uniquelist=\count300
-\c@uniquename=\count301
-\c@refsection=\count302
-\c@refsegment=\count303
-\c@maxextratitle=\count304
-\c@maxextratitleyear=\count305
-\c@maxextraname=\count306
-\c@maxextradate=\count307
-\c@maxextraalpha=\count308
-\c@abbrvpenalty=\count309
-\c@highnamepenalty=\count310
-\c@lownamepenalty=\count311
-\c@maxparens=\count312
-\c@parenlevel=\count313
-\blx@tempcnta=\count314
-\blx@tempcntb=\count315
-\blx@tempcntc=\count316
-\blx@maxsection=\count317
-\blx@maxsegment@0=\count318
-\blx@notetype=\count319
-\blx@parenlevel@text=\count320
-\blx@parenlevel@foot=\count321
-\blx@sectionciteorder@0=\count322
-\blx@entrysetcounter=\count323
-\blx@biblioinstance=\count324
-\labelnumberwidth=\skip54
-\labelalphawidth=\skip55
-\biblabelsep=\skip56
-\bibitemsep=\skip57
-\bibnamesep=\skip58
-\bibinitsep=\skip59
-\bibparsep=\skip60
-\bibhang=\skip61
-\blx@bcfin=\read2
-\blx@bcfout=\write3
-\blx@langwohyphens=\language87
-\c@mincomprange=\count325
-\c@maxcomprange=\count326
-\c@mincompwidth=\count327
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
-
-(/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/biblatex/blx-dm.def
-File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
-)
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count328
-\c@savedafterword=\count329
-\c@annotator=\count330
-\c@savedannotator=\count331
-\c@author=\count332
-\c@savedauthor=\count333
-\c@bookauthor=\count334
-\c@savedbookauthor=\count335
-\c@commentator=\count336
-\c@savedcommentator=\count337
-\c@editor=\count338
-\c@savededitor=\count339
-\c@editora=\count340
-\c@savededitora=\count341
-\c@editorb=\count342
-\c@savededitorb=\count343
-\c@editorc=\count344
-\c@savededitorc=\count345
-\c@foreword=\count346
-\c@savedforeword=\count347
-\c@holder=\count348
-\c@savedholder=\count349
-\c@introduction=\count350
-\c@savedintroduction=\count351
-\c@namea=\count352
-\c@savednamea=\count353
-\c@nameb=\count354
-\c@savednameb=\count355
-\c@namec=\count356
-\c@savednamec=\count357
-\c@translator=\count358
-\c@savedtranslator=\count359
-\c@shortauthor=\count360
-\c@savedshortauthor=\count361
-\c@shorteditor=\count362
-\c@savedshorteditor=\count363
-\c@labelname=\count364
-\c@savedlabelname=\count365
-\c@institution=\count366
-\c@savedinstitution=\count367
-\c@lista=\count368
-\c@savedlista=\count369
-\c@listb=\count370
-\c@savedlistb=\count371
-\c@listc=\count372
-\c@savedlistc=\count373
-\c@listd=\count374
-\c@savedlistd=\count375
-\c@liste=\count376
-\c@savedliste=\count377
-\c@listf=\count378
-\c@savedlistf=\count379
-\c@location=\count380
-\c@savedlocation=\count381
-\c@organization=\count382
-\c@savedorganization=\count383
-\c@origlocation=\count384
-\c@savedoriglocation=\count385
-\c@origpublisher=\count386
-\c@savedorigpublisher=\count387
-\c@publisher=\count388
-\c@savedpublisher=\count389
-\c@language=\count390
-\c@savedlanguage=\count391
-\c@origlanguage=\count392
-\c@savedoriglanguage=\count393
-\c@pageref=\count394
-\c@savedpageref=\count395
-\shorthandwidth=\skip62
-\shortjournalwidth=\skip63
-\shortserieswidth=\skip64
-\shorttitlewidth=\skip65
-\shortauthorwidth=\skip66
-\shorteditorwidth=\skip67
-\locallabelnumberwidth=\skip68
-\locallabelalphawidth=\skip69
-\localshorthandwidth=\skip70
-\localshortjournalwidth=\skip71
-\localshortserieswidth=\skip72
-\localshorttitlewidth=\skip73
-\localshortauthorwidth=\skip74
-\localshorteditorwidth=\skip75
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
-
-(/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/biblatex/blx-compat
-.def
-File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
-
-(/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/biblatex/biblatex.d
-ef
-File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
-\c@textcitecount=\count396
-\c@textcitetotal=\count397
-\c@textcitemaxnames=\count398
-\c@biburlbigbreakpenalty=\count399
-\c@biburlbreakpenalty=\count400
-\c@biburlnumpenalty=\count401
-\c@biburlucpenalty=\count402
-\c@biburllcpenalty=\count403
-\biburlbigskip=\muskip18
-\biburlnumskip=\muskip19
-\biburlucskip=\muskip20
-\biburllcskip=\muskip21
-\c@smartand=\count404
-)
-Package biblatex Info: Trying to load bibliography style 'numeric'...
-Package biblatex Info: ... file 'numeric.bbx' found.
-
-(/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/biblatex/bbx/numeri
-c.bbx
-File: numeric.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
-
-(/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/biblatex/bbx/standa
-rd.bbx
-File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count405
-\c@bbx:relatedtotal=\count406
-))
-Package biblatex Info: Trying to load citation style 'numeric'...
-Package biblatex Info: ... file 'numeric.cbx' found.
-
-(/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/biblatex/cbx/numeri
-c.cbx
-File: numeric.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\supercite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\smartcites'.
-)
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
-
-(/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/biblatex/biblatex.c
-fg
-File: biblatex.cfg 
-))
-\@quotelevel=\count407
-\@quotereset=\count408
-
 (/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/l3backend/l3backend
 -pdftex.def
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count409
-\l__pdf_internal_box=\box49
+\l__color_backend_stack_int=\count295
+\l__pdf_internal_box=\box56
 ) (./_main.aux)
 \openout1 = `_main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 73.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 82.
 LaTeX Font Info:    Trying to load font information for LUC+nanummj on input li
-ne 73.
+ne 82.
 
 (/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/nanumtype1/lucnanum
 mj.fd
 File: lucnanummj.fd 2013/02/12 v0.1 Nanum Myeongjo font definitions
 )
-LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    ... okay on input line 82.
 
 Package microtype Warning: Command \pickup@font is not defined as expected.
 (microtype)                Patching it anyway. Some things may break.
@@ -727,14 +574,14 @@ Package microtype Warning: Command \pickup@font is not defined as expected.
 (microtype)                applied to the document.
 (microtype)                (Hint: Turn on `verbose' mode).
 
-LaTeX Info: Redefining \microtypecontext on input line 73.
+LaTeX Info: Redefining \microtypecontext on input line 82.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 73.
+LaTeX Info: Redefining \showhyphens on input line 82.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -747,17 +594,17 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/context/base/mkii/supp-pd
 f.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count410
-\scratchdimen=\dimen156
-\scratchbox=\box50
-\nofMPsegments=\count411
-\nofMParguments=\count412
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count413
-\MPscratchDim=\dimen157
-\MPnumerator=\count414
-\makeMPintoPDFobject=\count415
-\everyMPtoPDFconversion=\toks26
+\scratchcounter=\count296
+\scratchdimen=\dimen175
+\scratchbox=\box57
+\nofMPsegments=\count297
+\nofMParguments=\count298
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count299
+\MPscratchDim=\dimen176
+\MPnumerator=\count300
+\makeMPintoPDFobject=\count301
+\everyMPtoPDFconversion=\toks29
 )
 (/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/epstopdf-pkg/epstop
 df-base.sty
@@ -770,7 +617,7 @@ f-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 73.
+Package hyperref Info: Link coloring OFF on input line 82.
 
 (/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/hyperref/nameref.st
 y
@@ -784,74 +631,38 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ttitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count416
+\c@section@level=\count302
 )
-LaTeX Info: Redefining \ref on input line 73.
-LaTeX Info: Redefining \pageref on input line 73.
-LaTeX Info: Redefining \nameref on input line 73.
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
-
-(/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/biblatex/lbx/englis
-h.lbx
-File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
-)
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'utf8'.
-Package biblatex Info: Document encoding is UTF8 ....
-(/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2021-02-18 L3 programming layer (loader) 
-)
-Package biblatex Info: ... and expl3
-(biblatex)             2021-02-18 L3 programming layer (loader) 
-(biblatex)             is new enough (at least 2020/04/06),
-(biblatex)             setting 'casechanger=expl3'.
-
-(/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/biblatex/blx-case-e
-xpl3.sty
-(/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/l3packages/xparse/x
-parse.sty
-(/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/l3packages/xparse/x
-parse-2020-10-01.sty
-(/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/l3packages/xparse/x
-parse-generic.tex)))
-Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
-)
-\openout3 = `_main.bcf'.
-
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file '_main.bbl' found.
-(./_main.bbl)
-Package biblatex Info: Reference section=0 on input line 73.
-Package biblatex Info: Reference segment=0 on input line 73.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 7
-6.
+LaTeX Info: Redefining \ref on input line 82.
+LaTeX Info: Redefining \pageref on input line 82.
+LaTeX Info: Redefining \nameref on input line 82.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 8
+4.
 (/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 7
-6.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 8
+4.
 (/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-76.
+84.
 (/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-76.
+84.
 (/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 76.
+(Font)              <12> on input line 84.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 76.
+(Font)              <8> on input line 84.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 76.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 76.
+(Font)              <6> on input line 84.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 84.
 
 (/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -860,7 +671,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 g
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 76.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 84.
 
 (/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -871,189 +682,184 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [1
 
 
-
 {/usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/map/pdftex/updmap/pdfte
 x.map}] [2
 
-]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 8
-9.
-(/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+] (./_main.toc
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 2.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 2.
 )
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 112.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 112.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 112.
-[1
+\tf@toc=\write3
+\openout3 = `_main.toc'.
+
+[3] [4
 
 ]
-Overfull \hbox (0.1064pt too wide) in paragraph at lines 195--196
+Chapter 1.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 9
+8.
+(/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [5]
+Overfull \hbox (0.1064pt too wide) in paragraph at lines 193--194
 \T1/lmr/m/n/10 (+14) 6 4 1 3 2 5 0 2 6& s = b o o k s & s p r e f i x = p y t h
  o n + f o r + m a r k e t i n g + r e s e a r c h + a
  []
 
-[2] [3] [4
+[6] [7] [8
 
 ]
-<img/s1/1.png, id=136, 501.875pt x 292.09125pt>
+Chapter 2.
+<img/s1/1.png, id=172, 501.875pt x 292.09125pt>
 File: img/s1/1.png Graphic file (type png)
 <use img/s1/1.png>
-Package pdftex.def Info: img/s1/1.png  used on input line 401.
+Package pdftex.def Info: img/s1/1.png  used on input line 394.
 (pdftex.def)             Requested size: 345.01523pt x 200.79884pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[5] [6 <./img/s1/1.png>]
-<img/s2/3.png, id=171, 120.45pt x 90.3375pt>
+[9] [10 <./img/s1/1.png>]
+Chapter 3.
+<img/s2/3.png, id=201, 120.45pt x 90.3375pt>
 File: img/s2/3.png Graphic file (type png)
 <use img/s2/3.png>
-Package pdftex.def Info: img/s2/3.png  used on input line 474.
+Package pdftex.def Info: img/s2/3.png  used on input line 466.
 (pdftex.def)             Requested size: 120.44969pt x 90.33727pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[7
+[11
 
 ]
-<img/s2/1.png, id=185, 501.875pt x 283.0575pt>
+<img/s2/1.png, id=212, 501.875pt x 283.0575pt>
 File: img/s2/1.png Graphic file (type png)
 <use img/s2/1.png>
-Package pdftex.def Info: img/s2/1.png  used on input line 476.
+Package pdftex.def Info: img/s2/1.png  used on input line 468.
 (pdftex.def)             Requested size: 345.01523pt x 194.58858pt.
-<img/s2/2.png, id=186, 501.875pt x 330.23375pt>
+<img/s2/2.png, id=213, 501.875pt x 330.23375pt>
 File: img/s2/2.png Graphic file (type png)
 <use img/s2/2.png>
-Package pdftex.def Info: img/s2/2.png  used on input line 478.
+Package pdftex.def Info: img/s2/2.png  used on input line 470.
 (pdftex.def)             Requested size: 345.01523pt x 227.02pt.
-
+(./_main.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[8 <./img/s2/3.png> <./img/s2/1.png>] [9 <./img/s2/2.png>] [10
+[12 <./img/s2/3.png> <./img/s2/1.png>] [13 <./img/s2/2.png>] [14
 
-] [11
-
-] (./_main.aux)
-Package logreq Info: Writing requests to '_main.run.xml'.
-\openout1 = `_main.run.xml'.
-
- ) 
+]) [15] (./_main.aux) ) 
 Here is how much of TeX's memory you used:
- 19701 strings out of 478994
- 335048 string characters out of 5851139
- 1089032 words of memory out of 5000000
- 36680 multiletter control sequences out of 15000+600000
- 501837 words of font info for 214 fonts, out of 8000000 for 9000
+ 13443 strings out of 478994
+ 204264 string characters out of 5851139
+ 547352 words of memory out of 5000000
+ 30440 multiletter control sequences out of 15000+600000
+ 509613 words of font info for 226 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,6n,88p,738b,1822s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.en
-c}{/usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.e
-nc}</usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/lm/lmbx
-10.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/lm/
-lmbx12.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public
-/lm/lmr10.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/pub
-lic/lm/lmr12.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/
-public/lm/lmr17.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/typ
-e1/public/lm/lmri10.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts
-/type1/public/lm/lmro10.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/f
-onts/type1/public/nanumtype1/nanummjbac.pfb></usr/local/Cellar/texlive/58837/sh
-are/texmf-dist/fonts/type1/public/nanumtype1/nanummjbad.pfb></usr/local/Cellar/
-texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbae.pfb></u
-sr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/na
-nummjbb0.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/publ
-ic/nanumtype1/nanummjbb3.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/
-fonts/type1/public/nanumtype1/nanummjbb5.pfb></usr/local/Cellar/texlive/58837/s
-hare/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb8.pfb></usr/local/Cellar
-/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbba.pfb></
-usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/n
-anummjbbb.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/pub
-lic/nanumtype1/nanummjbbc.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist
-/fonts/type1/public/nanumtype1/nanummjbc0.pfb></usr/local/Cellar/texlive/58837/
-share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc1.pfb></usr/local/Cella
-r/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc2.pfb><
-/usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/
-nanummjbc5.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/pu
-blic/nanumtype1/nanummjbc6.pfb></usr/local/Cellar/texlive/58837/share/texmf-dis
-t/fonts/type1/public/nanumtype1/nanummjbc7.pfb></usr/local/Cellar/texlive/58837
-/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc8.pfb></usr/local/Cell
-ar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc9.pfb>
-</usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1
-/nanummjbcc.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/p
-ublic/nanumtype1/nanummjbcd.pfb></usr/local/Cellar/texlive/58837/share/texmf-di
-st/fonts/type1/public/nanumtype1/nanummjbcf.pfb></usr/local/Cellar/texlive/5883
-7/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd1.pfb></usr/local/Cel
-lar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd3.pfb
-></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype
-1/nanummjbd4.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/
-public/nanumtype1/nanummjbd6.pfb></usr/local/Cellar/texlive/58837/share/texmf-d
-ist/fonts/type1/public/nanumtype1/nanummjbd7.pfb></usr/local/Cellar/texlive/588
-37/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb></usr/local/Ce
-llar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pf
+ 85i,6n,88p,510b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/
+enc/dvips/lm/lm-ec.enc}{/usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/
+enc/dvips/lm/lm-ts1.enc}</usr/local/Cellar/texlive/58837/share/texmf-dist/fonts
+/type1/public/lm/lmbx10.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/f
+onts/type1/public/lm/lmbx12.pfb></usr/local/Cellar/texlive/58837/share/texmf-di
+st/fonts/type1/public/lm/lmr10.pfb></usr/local/Cellar/texlive/58837/share/texmf
+-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/Cellar/texlive/58837/share/te
+xmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/Cellar/texlive/58837/share
+/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/Cellar/texlive/58837/s
+hare/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/Cellar/texlive/588
+37/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbac.pfb></usr/local/Ce
+llar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbad.pf
 b></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtyp
-e1/nanummjmae.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1
-/public/nanumtype1/nanummjmae.pfb></usr/local/Cellar/texlive/58837/share/texmf-
-dist/fonts/type1/public/nanumtype1/nanummjmb0.pfb></usr/local/Cellar/texlive/58
-837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb1.pfb></usr/local/C
-ellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb2.p
+e1/nanummjbae.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1
+/public/nanumtype1/nanummjbb0.pfb></usr/local/Cellar/texlive/58837/share/texmf-
+dist/fonts/type1/public/nanumtype1/nanummjbb3.pfb></usr/local/Cellar/texlive/58
+837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb5.pfb></usr/local/C
+ellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb8.p
 fb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumty
-pe1/nanummjmb3.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type
-1/public/nanumtype1/nanummjmb4.pfb></usr/local/Cellar/texlive/58837/share/texmf
--dist/fonts/type1/public/nanumtype1/nanummjmb5.pfb></usr/local/Cellar/texlive/5
-8837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb5.pfb></usr/local/
-Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb6.
+pe1/nanummjbba.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type
+1/public/nanumtype1/nanummjbbb.pfb></usr/local/Cellar/texlive/58837/share/texmf
+-dist/fonts/type1/public/nanumtype1/nanummjbbc.pfb></usr/local/Cellar/texlive/5
+8837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc0.pfb></usr/local/
+Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc1.
 pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumt
-ype1/nanummjmb7.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/typ
-e1/public/nanumtype1/nanummjmb8.pfb></usr/local/Cellar/texlive/58837/share/texm
-f-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb></usr/local/Cellar/texlive/
-58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmba.pfb></usr/local
-/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbb
+ype1/nanummjbc2.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/typ
+e1/public/nanumtype1/nanummjbc5.pfb></usr/local/Cellar/texlive/58837/share/texm
+f-dist/fonts/type1/public/nanumtype1/nanummjbc6.pfb></usr/local/Cellar/texlive/
+58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc7.pfb></usr/local
+/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc8
 .pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanum
-type1/nanummjmbc.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/ty
-pe1/public/nanumtype1/nanummjmbc.pfb></usr/local/Cellar/texlive/58837/share/tex
-mf-dist/fonts/type1/public/nanumtype1/nanummjmbd.pfb></usr/local/Cellar/texlive
-/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbe.pfb></usr/loca
-l/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc
-0.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanu
-mtype1/nanummjmc0.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/t
-ype1/public/nanumtype1/nanummjmc1.pfb></usr/local/Cellar/texlive/58837/share/te
-xmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb></usr/local/Cellar/texliv
-e/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb></usr/loc
+type1/nanummjbc9.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/ty
+pe1/public/nanumtype1/nanummjbcc.pfb></usr/local/Cellar/texlive/58837/share/tex
+mf-dist/fonts/type1/public/nanumtype1/nanummjbcd.pfb></usr/local/Cellar/texlive
+/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbcf.pfb></usr/loca
+l/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd
+1.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanu
+mtype1/nanummjbd3.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/t
+ype1/public/nanumtype1/nanummjbd4.pfb></usr/local/Cellar/texlive/58837/share/te
+xmf-dist/fonts/type1/public/nanumtype1/nanummjbd6.pfb></usr/local/Cellar/texliv
+e/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd7.pfb></usr/loc
 al/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjm
-c3.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nan
-umtype1/nanummjmc5.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/
-type1/public/nanumtype1/nanummjmc6.pfb></usr/local/Cellar/texlive/58837/share/t
-exmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb></usr/local/Cellar/texli
-ve/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb></usr/lo
+ac.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nan
+umtype1/nanummjmad.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/
+type1/public/nanumtype1/nanummjmae.pfb></usr/local/Cellar/texlive/58837/share/t
+exmf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb></usr/local/Cellar/texli
+ve/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb0.pfb></usr/lo
 cal/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummj
-mc8.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/na
-numtype1/nanummjmc8.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts
-/type1/public/nanumtype1/nanummjmc9.pfb></usr/local/Cellar/texlive/58837/share/
-texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb></usr/local/Cellar/texl
-ive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmca.pfb></usr/l
+mb1.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/na
+numtype1/nanummjmb2.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts
+/type1/public/nanumtype1/nanummjmb3.pfb></usr/local/Cellar/texlive/58837/share/
+texmf-dist/fonts/type1/public/nanumtype1/nanummjmb4.pfb></usr/local/Cellar/texl
+ive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb5.pfb></usr/l
 ocal/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanumm
-jmcc.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/n
-anumtype1/nanummjmcd.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/font
-s/type1/public/nanumtype1/nanummjmce.pfb></usr/local/Cellar/texlive/58837/share
-/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcf.pfb></usr/local/Cellar/tex
-live/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcf.pfb></usr/
+jmb5.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/n
+anumtype1/nanummjmb6.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/font
+s/type1/public/nanumtype1/nanummjmb7.pfb></usr/local/Cellar/texlive/58837/share
+/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb></usr/local/Cellar/tex
+live/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb></usr/
 local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanum
-mjmd0.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/
-nanumtype1/nanummjmd1.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fon
-ts/type1/public/nanumtype1/nanummjmd1.pfb></usr/local/Cellar/texlive/58837/shar
-e/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd2.pfb></usr/local/Cellar/te
-xlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb></usr
+mjmba.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/
+nanumtype1/nanummjmbb.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fon
+ts/type1/public/nanumtype1/nanummjmbc.pfb></usr/local/Cellar/texlive/58837/shar
+e/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb></usr/local/Cellar/te
+xlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbd.pfb></usr
 /local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanu
-mmjmd4.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public
-/nanumtype1/nanummjmd5.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fo
-nts/type1/public/nanumtype1/nanummjmd6.pfb></usr/local/Cellar/texlive/58837/sha
-re/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb></usr/local/Cellar/t
-exlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb>
-Output written on _main.pdf (13 pages, 3991004 bytes).
+mmjmbe.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public
+/nanumtype1/nanummjmc0.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fo
+nts/type1/public/nanumtype1/nanummjmc0.pfb></usr/local/Cellar/texlive/58837/sha
+re/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc1.pfb></usr/local/Cellar/t
+exlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb></us
+r/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nan
+ummjmc2.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/publi
+c/nanumtype1/nanummjmc3.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/f
+onts/type1/public/nanumtype1/nanummjmc5.pfb></usr/local/Cellar/texlive/58837/sh
+are/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb></usr/local/Cellar/
+texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb></u
+sr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/na
+nummjmc7.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/publ
+ic/nanumtype1/nanummjmc8.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/
+fonts/type1/public/nanumtype1/nanummjmc8.pfb></usr/local/Cellar/texlive/58837/s
+hare/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb></usr/local/Cellar
+/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb></
+usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/n
+anummjmca.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/pub
+lic/nanumtype1/nanummjmcc.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist
+/fonts/type1/public/nanumtype1/nanummjmcd.pfb></usr/local/Cellar/texlive/58837/
+share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmce.pfb></usr/local/Cella
+r/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcf.pfb><
+/usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/
+nanummjmcf.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/pu
+blic/nanumtype1/nanummjmd0.pfb></usr/local/Cellar/texlive/58837/share/texmf-dis
+t/fonts/type1/public/nanumtype1/nanummjmd1.pfb></usr/local/Cellar/texlive/58837
+/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd1.pfb></usr/local/Cell
+ar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd2.pfb>
+</usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1
+/nanummjmd3.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/p
+ublic/nanumtype1/nanummjmd4.pfb></usr/local/Cellar/texlive/58837/share/texmf-di
+st/fonts/type1/public/nanumtype1/nanummjmd5.pfb></usr/local/Cellar/texlive/5883
+7/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb></usr/local/Cel
+lar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb
+></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/nanumtype
+1/nanummjmd7.pfb>
+Output written on _main.pdf (15 pages, 3997756 bytes).
 PDF statistics:
- 533 PDF objects out of 1000 (max. 8388607)
- 421 compressed objects within 5 object streams
- 47 named destinations out of 1000 (max. 500000)
- 41101 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 553 PDF objects out of 1000 (max. 8388607)
+ 439 compressed objects within 5 object streams
+ 50 named destinations out of 1000 (max. 500000)
+ 45181 words of extra memory for PDF output out of 51595 (max. 10000000)
 
