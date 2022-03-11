@@ -1,4 +1,4 @@
-# Session1 - Chapter1 & 2
+# Session2 - Chapter3 & 4: Describing Data / Relationships Between Continuous Variables
 손경희
 
 ## 발표자료
@@ -30,7 +30,7 @@
 
 ![](img/s2/3.png)
 
-![](img/s2/1.png)
 
-![](img/s2/2.png)
+
+
 

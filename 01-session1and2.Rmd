@@ -1,4 +1,5 @@
-# Session1 - Chapter1 & 2
+# Session1 - Chapter1 & 2 Welcome to R and Python / An overview of the R and Python Language
+
 ## 발표자료
 - Python
     - [채충일 발표자료](https://drive.google.com/file/d/1YXzvYAqYfOlsTKB6k1K0GBP6RCqTRr-S/view?usp=sharing)

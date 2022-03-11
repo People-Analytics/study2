@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>8 Session - Chapter 11: Segmentation: Clustering and Classification | 마케팅/고객 분석 그룹스터디</title>
+  <meta name="description" content="8 Session - Chapter 11: Segmentation: Clustering and Classification | 마케팅/고객 분석 그룹스터디" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="8 Session - Chapter 11: Segmentation: Clustering and Classification | 마케팅/고객 분석 그룹스터디" />
+  <meta property="og:type" content="book" />
+  <meta property="og:url" content="https://people-analytics.github.io/study2" />
+  <meta property="og:image" content="https://people-analytics.github.io/study2/img/s2/3.png" />
+  
+  <meta name="github-repo" content="People-Analytics/study2" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="8 Session - Chapter 11: Segmentation: Clustering and Classification | 마케팅/고객 분석 그룹스터디" />
+  
+  
+  <meta name="twitter:image" content="https://people-analytics.github.io/study2/img/s2/3.png" />
+
+<meta name="author" content="Chad (Chungil Chae)" />
+
+
+<meta name="date" content="2022-03-11" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="session---chapter-10-confirmatory-factor-analysis-and-structural-equation-modeling.html"/>
+<link rel="next" href="session---chapter-12-13-association-rules-for-market-basket-analysis-choice-modeling.html"/>
+<script src="libs/header-attrs-2.13/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">마케팅/고객분석 그룹스터디</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> 스터디 기본정보<span></span></a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#미팅-시간과-날자-및-장소"><i class="fa fa-check"></i><b>1.1</b> 미팅 시간과 날자 및 장소<span></span></a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#멤버"><i class="fa fa-check"></i><b>1.2</b> 멤버<span></span></a>
+<ul>
+<li class="chapter" data-level="1.2.1" data-path="index.html"><a href="index.html#facilitators"><i class="fa fa-check"></i><b>1.2.1</b> Facilitators<span></span></a></li>
+<li class="chapter" data-level="1.2.2" data-path="index.html"><a href="index.html#participants"><i class="fa fa-check"></i><b>1.2.2</b> Participants<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#교재"><i class="fa fa-check"></i><b>1.3</b> 교재<span></span></a></li>
+<li class="chapter" data-level="1.4" data-path="index.html"><a href="index.html#스케쥴"><i class="fa fa-check"></i><b>1.4</b> 스케쥴<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="session1---chapter1-2-welcome-to-r-and-python-an-overview-of-the-r-and-python-language.html"><a href="session1---chapter1-2-welcome-to-r-and-python-an-overview-of-the-r-and-python-language.html"><i class="fa fa-check"></i><b>2</b> Session1 - Chapter1 &amp; 2 Welcome to R and Python / An overview of the R and Python Language<span></span></a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="session1---chapter1-2-welcome-to-r-and-python-an-overview-of-the-r-and-python-language.html"><a href="session1---chapter1-2-welcome-to-r-and-python-an-overview-of-the-r-and-python-language.html#발표자료"><i class="fa fa-check"></i><b>2.1</b> 발표자료<span></span></a></li>
+<li class="chapter" data-level="2.2" data-path="session1---chapter1-2-welcome-to-r-and-python-an-overview-of-the-r-and-python-language.html"><a href="session1---chapter1-2-welcome-to-r-and-python-an-overview-of-the-r-and-python-language.html#요약"><i class="fa fa-check"></i><b>2.2</b> 요약<span></span></a></li>
+<li class="chapter" data-level="2.3" data-path="session1---chapter1-2-welcome-to-r-and-python-an-overview-of-the-r-and-python-language.html"><a href="session1---chapter1-2-welcome-to-r-and-python-an-overview-of-the-r-and-python-language.html#현장사진"><i class="fa fa-check"></i><b>2.3</b> 현장사진<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="session2---chapter3-4-describing-data-relationships-between-continuous-variables.html"><a href="session2---chapter3-4-describing-data-relationships-between-continuous-variables.html"><i class="fa fa-check"></i><b>3</b> Session2 - Chapter3 &amp; 4: Describing Data / Relationships Between Continuous Variables<span></span></a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="session2---chapter3-4-describing-data-relationships-between-continuous-variables.html"><a href="session2---chapter3-4-describing-data-relationships-between-continuous-variables.html#발표자료-1"><i class="fa fa-check"></i><b>3.1</b> 발표자료<span></span></a></li>
+<li class="chapter" data-level="3.2" data-path="session2---chapter3-4-describing-data-relationships-between-continuous-variables.html"><a href="session2---chapter3-4-describing-data-relationships-between-continuous-variables.html#요약-1"><i class="fa fa-check"></i><b>3.2</b> 요약<span></span></a></li>
+<li class="chapter" data-level="3.3" data-path="session2---chapter3-4-describing-data-relationships-between-continuous-variables.html"><a href="session2---chapter3-4-describing-data-relationships-between-continuous-variables.html#현장사진-1"><i class="fa fa-check"></i><b>3.3</b> 현장사진<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="session3---chapter5-6-comparing-groupstables-and-visualizations-comparing-groups-statistical-tests.html"><a href="session3---chapter5-6-comparing-groupstables-and-visualizations-comparing-groups-statistical-tests.html"><i class="fa fa-check"></i><b>4</b> Session3 - Chapter5 &amp; 6: Comparing Groups:Tables and Visualizations / Comparing Groups: Statistical Tests<span></span></a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="session3---chapter5-6-comparing-groupstables-and-visualizations-comparing-groups-statistical-tests.html"><a href="session3---chapter5-6-comparing-groupstables-and-visualizations-comparing-groups-statistical-tests.html#발표자료-2"><i class="fa fa-check"></i><b>4.1</b> 발표자료<span></span></a></li>
+<li class="chapter" data-level="4.2" data-path="session3---chapter5-6-comparing-groupstables-and-visualizations-comparing-groups-statistical-tests.html"><a href="session3---chapter5-6-comparing-groupstables-and-visualizations-comparing-groups-statistical-tests.html#요약-2"><i class="fa fa-check"></i><b>4.2</b> 요약<span></span></a></li>
+<li class="chapter" data-level="4.3" data-path="session3---chapter5-6-comparing-groupstables-and-visualizations-comparing-groups-statistical-tests.html"><a href="session3---chapter5-6-comparing-groupstables-and-visualizations-comparing-groups-statistical-tests.html#현장사진-2"><i class="fa fa-check"></i><b>4.3</b> 현장사진<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="session---chapter-78-linear-models-complexity.html"><a href="session---chapter-78-linear-models-complexity.html"><i class="fa fa-check"></i><b>5</b> Session - Chapter 7&amp;8 Linear Models &amp; Complexity<span></span></a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="session---chapter-78-linear-models-complexity.html"><a href="session---chapter-78-linear-models-complexity.html#발표자료-3"><i class="fa fa-check"></i><b>5.1</b> 발표자료<span></span></a></li>
+<li class="chapter" data-level="5.2" data-path="session---chapter-78-linear-models-complexity.html"><a href="session---chapter-78-linear-models-complexity.html#요약-3"><i class="fa fa-check"></i><b>5.2</b> 요약<span></span></a></li>
+<li class="chapter" data-level="5.3" data-path="session---chapter-78-linear-models-complexity.html"><a href="session---chapter-78-linear-models-complexity.html#현장사진-3"><i class="fa fa-check"></i><b>5.3</b> 현장사진<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="session---chapter9-additional-linear-modeling.html"><a href="session---chapter9-additional-linear-modeling.html"><i class="fa fa-check"></i><b>6</b> Session - Chapter9: Additional Linear Modeling<span></span></a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="session---chapter9-additional-linear-modeling.html"><a href="session---chapter9-additional-linear-modeling.html#발표자료-4"><i class="fa fa-check"></i><b>6.1</b> 발표자료<span></span></a></li>
+<li class="chapter" data-level="6.2" data-path="session---chapter9-additional-linear-modeling.html"><a href="session---chapter9-additional-linear-modeling.html#요약-4"><i class="fa fa-check"></i><b>6.2</b> 요약<span></span></a></li>
+<li class="chapter" data-level="6.3" data-path="session---chapter9-additional-linear-modeling.html"><a href="session---chapter9-additional-linear-modeling.html#현장사진-4"><i class="fa fa-check"></i><b>6.3</b> 현장사진<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="session---chapter-10-confirmatory-factor-analysis-and-structural-equation-modeling.html"><a href="session---chapter-10-confirmatory-factor-analysis-and-structural-equation-modeling.html"><i class="fa fa-check"></i><b>7</b> Session - Chapter 10: Confirmatory Factor Analysis and Structural Equation Modeling<span></span></a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="session---chapter-10-confirmatory-factor-analysis-and-structural-equation-modeling.html"><a href="session---chapter-10-confirmatory-factor-analysis-and-structural-equation-modeling.html#발표자료-5"><i class="fa fa-check"></i><b>7.1</b> 발표자료<span></span></a></li>
+<li class="chapter" data-level="7.2" data-path="session---chapter-10-confirmatory-factor-analysis-and-structural-equation-modeling.html"><a href="session---chapter-10-confirmatory-factor-analysis-and-structural-equation-modeling.html#현장사진-5"><i class="fa fa-check"></i><b>7.2</b> 현장사진<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="session---chapter-11-segmentation-clustering-and-classification.html"><a href="session---chapter-11-segmentation-clustering-and-classification.html"><i class="fa fa-check"></i><b>8</b> Session - Chapter 11: Segmentation: Clustering and Classification<span></span></a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="session---chapter-11-segmentation-clustering-and-classification.html"><a href="session---chapter-11-segmentation-clustering-and-classification.html#발표자료-6"><i class="fa fa-check"></i><b>8.1</b> 발표자료<span></span></a></li>
+<li class="chapter" data-level="8.2" data-path="session---chapter-11-segmentation-clustering-and-classification.html"><a href="session---chapter-11-segmentation-clustering-and-classification.html#요약-5"><i class="fa fa-check"></i><b>8.2</b> 요약<span></span></a></li>
+<li class="chapter" data-level="8.3" data-path="session---chapter-11-segmentation-clustering-and-classification.html"><a href="session---chapter-11-segmentation-clustering-and-classification.html#현장사진-6"><i class="fa fa-check"></i><b>8.3</b> 현장사진<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="session---chapter-12-13-association-rules-for-market-basket-analysis-choice-modeling.html"><a href="session---chapter-12-13-association-rules-for-market-basket-analysis-choice-modeling.html"><i class="fa fa-check"></i><b>9</b> Session - Chapter 12 &amp; 13: Association Rules for Market Basket Analysis / Choice Modeling<span></span></a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="session---chapter-12-13-association-rules-for-market-basket-analysis-choice-modeling.html"><a href="session---chapter-12-13-association-rules-for-market-basket-analysis-choice-modeling.html#발표자료-7"><i class="fa fa-check"></i><b>9.1</b> 발표자료<span></span></a></li>
+<li class="chapter" data-level="9.2" data-path="session---chapter-12-13-association-rules-for-market-basket-analysis-choice-modeling.html"><a href="session---chapter-12-13-association-rules-for-market-basket-analysis-choice-modeling.html#요약-6"><i class="fa fa-check"></i><b>9.2</b> 요약<span></span></a></li>
+<li class="chapter" data-level="9.3" data-path="session---chapter-12-13-association-rules-for-market-basket-analysis-choice-modeling.html"><a href="session---chapter-12-13-association-rules-for-market-basket-analysis-choice-modeling.html#현장사진-7"><i class="fa fa-check"></i><b>9.3</b> 현장사진<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="session---chapter-14-behavior-sequences.html"><a href="session---chapter-14-behavior-sequences.html"><i class="fa fa-check"></i><b>10</b> Session - Chapter 14: Behavior Sequences<span></span></a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="session---chapter-14-behavior-sequences.html"><a href="session---chapter-14-behavior-sequences.html#발표자료-8"><i class="fa fa-check"></i><b>10.1</b> ## 발표자료<span></span></a></li>
+<li class="chapter" data-level="10.2" data-path="session---chapter-14-behavior-sequences.html"><a href="session---chapter-14-behavior-sequences.html#요약-7"><i class="fa fa-check"></i><b>10.2</b> 요약<span></span></a></li>
+<li class="chapter" data-level="10.3" data-path="session---chapter-14-behavior-sequences.html"><a href="session---chapter-14-behavior-sequences.html#현장사진-8"><i class="fa fa-check"></i><b>10.3</b> 현장사진<span></span></a></li>
+</ul></li>
+<li><a href="references.html#references">References<span></span></a></li>
+<li class="divider"></li>
+<li><a href="https://people-analytics.github.io/study2/" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">마케팅/고객 분석 그룹스터디</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="session---chapter-11-segmentation-clustering-and-classification" class="section level1 hasAnchor" number="8">
+<h1><span class="header-section-number">8</span> Session - Chapter 11: Segmentation: Clustering and Classification<a href="session---chapter-11-segmentation-clustering-and-classification.html#session---chapter-11-segmentation-clustering-and-classification" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>강동오</p>
+<div id="발표자료-6" class="section level2 hasAnchor" number="8.1">
+<h2><span class="header-section-number">8.1</span> 발표자료<a href="session---chapter-11-segmentation-clustering-and-classification.html#발표자료-6" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li><a href="https://drive.google.com/file/d/1z0OOVQXOv4IQfoh87cLaQETtxnQYBPzb/view?usp=sharing" class="uri">https://drive.google.com/file/d/1z0OOVQXOv4IQfoh87cLaQETtxnQYBPzb/view?usp=sharing</a></li>
+</ul>
+</div>
+<div id="요약-5" class="section level2 hasAnchor" number="8.2">
+<h2><span class="header-section-number">8.2</span> 요약<a href="session---chapter-11-segmentation-clustering-and-classification.html#요약-5" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>각자가 온라인 쇼핑몰을 운영하고 있다고 가정했을때, 본인 스스로를 타게팅
+하려면 어떤 Segment를 설정해야 될 지 작성해 주세요.^^</p>
+<ul>
+<li>강동오: 30대 남성, 평균 2021년 누적 방문수 24회(월 평균 2회),
+생활용품 카테고리를 주로 구매, 평균 방문시 구매액 5만원 -
+이진재:40대/남성/월방문수10회/구매액5만원/생활용품,전자기기 에서
+주로 접속 / 카트에 일단 물건을 넣어둠 / 멤버쉽 회원 아님</li>
+<li>이승희: 40대 워킹맘, 식품/생활용품, 매일 방문, 장바구니 체류시간 김,
+주 5만원*2회, 목요일 구매 빈도 높음 / 패션,잡화 : 주3회 방문, 저녁
+시간대, 링크 공유 일정 시간 후 구매 경향, 특정 브랜드 충성도 높음 -
+워킹맘: 기초조사를 통한 행동유형을 규정(배송비 고민없이 등) / 팬데믹
+이후: ??, 유저 조사로 정답 정보를 받아서 → 추정모델을 만들어서
+활용(논란은 언제나…)</li>
+<li>Eunice Seo: grocery, home improvement product shopping, shopping
+frequency more than once a week, total spendings over $500/month -
+미국에서 연령자체를 보지 않음: Life style, behavior에 따른 분류를
+주로 함</li>
+<li>손경희:30대여성.기혼.생활용품,간편식품주1회이상구매.구매액월 80만원
+내외. TVING, 웹툰 등 컨텐츠 구매. 네이버페이. 모바일 결제.</li>
+<li>정시앙: 건강, 종합쇼핑몰, 금융 관련 카테고리 앱 설치, android OS -
+앱 설치 카테고리에 따라 많은 정보를 얻을 수 있음, 갈수록 힘들어짐</li>
+<li>박규서 50대, 남성, 방문수 월20회, 책, 전자기기, 사무용품, 기타항목
+구매, 평균방문시 2만원 ~5만원 (물폼에 따라 차이, 전자기기는 비쌈):</li>
+<li>채충일: 40대, 남성, 월 누적방문 30회 주 3회, 전자기기, 사무용품
+카테고리, 평균 방문시 구매액 20만원(구매성사 주로 월초), 핸드폰에서
+주로 접속</li>
+<li>윤승원: 50대, 남성, visit by month 5, all in the morning, shoes,
+clothes, saving until free shipping ($100), laptop access, viewing
+reviews, watching lots of prime movies</li>
+</ul>
+</div>
+<div id="현장사진-6" class="section level2 hasAnchor" number="8.3">
+<h2><span class="header-section-number">8.3</span> 현장사진<a href="session---chapter-11-segmentation-clustering-and-classification.html#현장사진-6" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><img src="img/s7/7.png" /></p>
+
+</div>
+</div>
+<div id="disqus_thread"></div>
+    <script>
+    (function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = '//chadchae.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the
+<a href="https://disqus.com/?ref_noscript">
+  comments powered by Disqus.</a></noscript>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="session---chapter-10-confirmatory-factor-analysis-and-structural-equation-modeling.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="session---chapter-12-13-association-rules-for-market-basket-analysis-choice-modeling.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/people-analytics/study2/edit/master/07-session11.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["_main.pdf", "_main.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
