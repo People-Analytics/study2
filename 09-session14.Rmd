@@ -2,11 +2,20 @@
 이승희
 
 ## 발표자료
--
+- https://drive.google.com/file/d/14fci5a8CQZCbYruxdHIyAESA5Krh4D5j/view?usp=sharing
 
 ## 요약
-
+Q.  Ch1-Ch14 중 다시 자세히 보고 싶은 Chapter는? 그 이유는?
+- 이승희 : Ch12+모두 다
+- 이진재 : Ch12 Association Rule.  업무에서 활용도가 높을거 같아서
+- Eunice Seo : 전체 다 + ch12
+- 손경희 : Ch12 Association Rule. 생소했던 내용이라 다시 보고 싶네용
+- 강동오 : Ch12를 다시 보고 싶습니다.
+- 정시앙 : 오늘 챕터,  업무 활용에 필요한 거 위주로 전반적으로 다시 보고 싶네요
+- 박규서 : 전 9장 이후 ~
+- 채충일 : Chapter 12,14 오늘 챕터. 마코브 체인, 트렌지션 메트릭스에 대한 적용에 대한 아이디어 그리고 함께 쓸 방법들에 대한 생각들이 많이 생겼습니다.
+- 윤승원 : data simulation; because there are lot of times when real data are not avaialable
 
 ## 현장사진
-
+![](img/s9/9.png)
 
